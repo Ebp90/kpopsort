@@ -72,7 +72,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Karina",
     img: "Karina_aespa.jpg",
     opts: {
-    series: ["aespa"],
+    series: ["Aespa"],
     stage: ["st4"]
     }
   },
@@ -80,7 +80,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Winter",
     img: "Winter_aespa.jpg",
     opts: {
-    series: ["aespa"],
+    series: ["Aespa"],
     stage: ["st4"]
     }
   },
@@ -88,7 +88,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Ningning",
     img: "Ningning_aespa.jpg",
     opts: {
-    series: ["aespa"],
+    series: ["Aespa"],
     stage: ["st4"]
     }
   },
@@ -96,7 +96,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Giselle",
     img: "Giselle_aespa.jpg",
     opts: {
-    series: ["aespa"],
+    series: ["Aespa"],
     stage: ["st4"]
     }
   },
