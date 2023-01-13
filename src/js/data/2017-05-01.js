@@ -2286,7 +2286,7 @@ dataSet[dataSetVersion].characterData = [
        },
    {
            name: "Yuri",
-           img: "Yuri_SNSD.jpg",
+           img: "Yuri_Girls-Generation.jpg",
            opts: {
            series: ["SNSD"],
            stage: ["st2"]
