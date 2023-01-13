@@ -2173,7 +2173,7 @@ dataSet[dataSetVersion].characterData = [
        }
      },
    {
-       name: "Xuan Yo",
+       name: "Xuan Yi",
        img: "Xuan_WJSN.jpg",
        opts: {
        series: ["WJSN"],
