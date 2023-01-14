@@ -15,12 +15,13 @@ dataSet[dataSetVersion].options = [
       { name: "Billlie", key: "Billlie" },
       { name: "Brave Girls", key: "Brave Girls" },
       { name: "Cherry Bullet", key: "Cherry Bullet" },
-      //{ name: "CLASS:y", key: "CLASS:y" },
+      { name: "CLASS:y", key: "CLASS:y" },
       { name: "CSR", key: "CSR" },
       { name: "Dreamcatcher", key: "Dreamcatcher" },
       { name: "DreamNote", key: "DreamNote" },
       { name: "EVERGLOW", key: "EVERGLOW" },
       { name: "fromis_9", key: "fromis_9" },
+      { name: "(G)I-DLE", key: "(G)I-DLE" },
       { name: "GFRIEND", key: "GFRIEND" },
       { name: "H1-KEY", key: "H1-KEY" },
       { name: "ITZY", key: "ITZY" },
@@ -39,8 +40,11 @@ dataSet[dataSetVersion].options = [
       { name: "NMIXX", key: "NMIXX" },
       { name: "OH MY GIRL", key: "OH MY GIRL" },
       { name: "PIXY", key: "PIXY" },
+      { name: "Purple Kiss", key: "Purple Kiss" },
       { name: "Red Velvet", key: "Red Velvet" },
       { name: "Rocket Punch", key: "Rocket Punch" },
+      { name: "SNSD", key: "SNSD" },
+      { name: "Soloist", key: "Soloist" },
       { name: "STAYC", key: "STAYC" },
       { name: "TRI.BE", key: "TRI.BE" },
       { name: "TWICE", key: "TWICE" },
@@ -48,10 +52,7 @@ dataSet[dataSetVersion].options = [
       { name: "Weeekly", key: "Weeekly" },
       { name: "Weki Meki", key: "Weki Meki" },
       { name: "WJSN", key: "WJSN" },
-      { name: "G-I-DLE", key: "G-I-DLE" },
       { name: "Woo!Ah!", key: "Woo!Ah!" },
-      { name: "SNSD", key: "SNSD" },
-      { name: "Soloist", key: "Soloist" },
     ]
   },
   {
@@ -60,9 +61,10 @@ dataSet[dataSetVersion].options = [
     tooltip: "Check this to restrict to characters that appear in certain stages as enemies.",
     checked: false,
     sub: [
-      { name: "Stage 2", key: "st2" },
-      { name: "Stage 3", key: "st3" },
-      { name: "Stage 4", key: "st4" }
+      { name: "Gen 1", key: "st2" },
+      { name: "Gen 2", key: "st2" },
+      { name: "Gen 3", key: "st3" },
+      { name: "Gen 4", key: "st4" }
     ]
   }
 ];
@@ -336,7 +338,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Yuna",
     img: "Yuna_Brave-Girls.jpg",
     opts: {
-    series: ["Brave-Girls"],
+    series: ["Brave Girls"],
     stage: ["st2"]
     }
   },
@@ -344,7 +346,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Eunji",
     img: "Eunji_Brave-Girls.jpg",
     opts: {
-    series: ["Brave-Girls"],
+    series: ["Brave Girls"],
     stage: ["st2"]
     }
   },
@@ -352,7 +354,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Yujeong",
     img: "Yujeong_Brave-Girls.jpg",
     opts: {
-    series: ["Brave-Girls"],
+    series: ["Brave Girls"],
     stage: ["st2"]
     }
   },
@@ -360,7 +362,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Minyoung",
     img: "Minyoung_Brave-Girls.jpg",
     opts: {
-    series: ["Brave-Girls"],
+    series: ["Brave Girls"],
     stage: ["st2"]
     }
   },
@@ -368,7 +370,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Jiwon",
     img: "Jiwon_Cherry-Bullet.jpg",
     opts: {
-    series: ["Cherry-Bullet"],
+    series: ["Cherry Bullet"],
     stage: ["st4"]
     }
   },
@@ -376,7 +378,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Yuju",
     img: "Yuju_Cherry-Bullet.jpg",
     opts: {
-    series: ["Cherry-Bullet"],
+    series: ["Cherry Bullet"],
     stage: ["st4"]
     }
   },
@@ -384,7 +386,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Remi",
     img: "Remi_Cherry-Bullet.jpg",
     opts: {
-    series: ["Cherry-Bullet"],
+    series: ["Cherry Bullet"],
     stage: ["st4"]
     }
   },
@@ -392,7 +394,7 @@ dataSet[dataSetVersion].characterData = [
     name: "May",
     img: "May_Cherry-Bullet.jpg",
     opts: {
-    series: ["Cherry-Bullet"],
+    series: ["Cherry Bullet"],
     stage: ["st4"]
     }
   },
@@ -400,7 +402,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Haeyoon",
     img: "Haeyoon_Cherry-Bullet.jpg",
     opts: {
-    series: ["Cherry-Bullet"],
+    series: ["Cherry Bullet"],
     stage: ["st4"]
     }
   },
@@ -408,7 +410,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Bora",
     img: "Bora_Cherry-Bullet.jpg",
     opts: {
-    series: ["Cherry-Bullet"],
+    series: ["Cherry Bullet"],
     stage: ["st4"]
     }
   },
@@ -416,7 +418,63 @@ dataSet[dataSetVersion].characterData = [
     name: "Chaerin",
     img: "Chaerin_Cherry-Bullet.jpg",
     opts: {
-    series: ["Cherry-Bullet"],
+    series: ["Cherry Bullet"],
+    stage: ["st4"]
+    }
+  },
+{
+    name: "Boeun",
+    img: "Boeun_Classy.jpg",
+    opts: {
+    series: ["CLASS:y"],
+    stage: ["st4"]
+    }
+  },
+{
+    name: "Chaewon",
+    img: "Chaewon_Classy.jpg",
+    opts: {
+    series: ["CLASS:y"],
+    stage: ["st4"]
+    }
+  },
+{
+    name: "Riwon",
+    img: "Riwon_Classy.jpg",
+    opts: {
+    series: ["CLASS:y"],
+    stage: ["st4"]
+    }
+  },
+{
+    name: "Seonyou",
+    img: "Seonyou_Classy.jpg",
+    opts: {
+    series: ["CLASS:y"],
+    stage: ["st4"]
+    }
+  },
+{
+    name: "Jimin",
+    img: "Jimin_Classy.jpg",
+    opts: {
+    series: ["CLASS:y"],
+    stage: ["st4"]
+    }
+  },
+{
+    name: "Hyungseo",
+    img: "Hyungseo_Classy.jpg",
+    opts: {
+    series: ["CLASS:y"],
+    stage: ["st4"]
+    }
+  },
+{
+    name: "Honghyeju",
+    img: "Honghyeju_Classy.jpg",
+    opts: {
+    series: ["CLASS:y"],
     stage: ["st4"]
     }
   },
@@ -640,7 +698,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Saerom",
     img: "Saerom_fromis-9.jpg",
     opts: {
-    series: ["fromis-9"],
+    series: ["fromis_9"],
     stage: ["st4"]
     }
   },
@@ -648,7 +706,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Jisun",
     img: "Jisun_fromis-9.jpg",
     opts: {
-    series: ["fromis-9"],
+    series: ["fromis_9"],
     stage: ["st4"]
     }
   },
@@ -656,7 +714,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Chaeyoung",
     img: "Chaeyoung_fromis-9.jpg",
     opts: {
-    series: ["fromis-9"],
+    series: ["fromis_9"],
     stage: ["st4"]
     }
   },
@@ -664,7 +722,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Jiwon",
     img: "Jiwon_fromis-9.jpg",
     opts: {
-    series: ["fromis-9"],
+    series: ["fromis_9"],
     stage: ["st4"]
     }
   },
@@ -672,7 +730,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Hayoung",
     img: "Hayoung_fromis-9.jpg",
     opts: {
-    series: ["fromis-9"],
+    series: ["fromis_9"],
     stage: ["st4"]
     }
   },
@@ -680,7 +738,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Nagyung",
     img: "Nagyung_fromis-9.jpg",
     opts: {
-    series: ["fromis-9"],
+    series: ["fromis_9"],
     stage: ["st4"]
     }
   },
@@ -688,7 +746,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Jiheon",
     img: "Jiheon_fromis-9.jpg",
     opts: {
-    series: ["fromis-9"],
+    series: ["fromis_9"],
     stage: ["st4"]
     }
   },
@@ -696,7 +754,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Seoyeon",
     img: "Seoyeon_fromis-9.jpg",
     opts: {
-    series: ["fromis-9"],
+    series: ["fromis_9"],
     stage: ["st4"]
     }
   },
@@ -704,7 +762,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Gyuri",
     img: "Gyuri_fromis-9.jpg",
     opts: {
-    series: ["fromis-9"],
+    series: ["fromis_9"],
     stage: ["st4"]
     }
   },
@@ -712,7 +770,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Eunha",
     img: "Eunha_GFRIEND.jpg",
     opts: {
-    series: ["GFRIEND"],
+    series: ["GFRIEND", "VIVIZ"],
     stage: ["st4"]
     }
   },
@@ -720,7 +778,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Umji",
     img: "Umji_GFRIEND.jpg",
     opts: {
-    series: ["GFRIEND"],
+    series: ["GFRIEND", "VIVIZ"],
     stage: ["st3"]
     }
   },
@@ -728,7 +786,7 @@ dataSet[dataSetVersion].characterData = [
     name: "SinB",
     img: "SinB_GFRIEND.jpg",
     opts: {
-    series: ["GFRIEND"],
+    series: ["GFRIEND", "VIVIZ"],
     stage: ["st3"]
     }
   },
@@ -840,7 +898,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Wonyoung",
       img: "Wonyoung_IVE.jpg",
       opts: {
-      series: ["IVE"],
+      series: ["IVE", "IZ*ONE"],
       stage: ["st4"]
       }
     },
@@ -848,7 +906,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Yujin",
       img: "Yujin_IVE.jpg",
       opts: {
-      series: ["IVE"],
+      series: ["IVE", "IZ*ONE"],
       stage: ["st4"]
       }
     },
@@ -885,26 +943,10 @@ dataSet[dataSetVersion].characterData = [
       }
     },
   {
-      name: "Sakura",
-      img: "Sakura_IZ-ONE.jpg",
-      opts: {
-      series: ["IZ-ONE"],
-      stage: ["st4"]
-      }
-    },
-  {
-      name: "Chaewon",
-      img: "Chaewon_IZ-ONE.jpg",
-      opts: {
-      series: ["IZ-ONE"],
-      stage: ["st4"]
-      }
-    },
-  {
       name: "Minju",
       img: "Minju_IZ-ONE.jpg",
       opts: {
-      series: ["IZ-ONE"],
+      series: ["IZ*ONE"],
       stage: ["st4"]
       }
     },
@@ -912,7 +954,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Eunbi",
       img: "Eunbi_IZ-ONE.jpg",
       opts: {
-      series: ["IZ-ONE", "Soloist"],
+      series: ["IZ*ONE", "Soloist"],
       stage: ["st4"]
       }
     },
@@ -920,7 +962,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Chaeyeon",
       img: "Chaeyeon_IZ-ONE.jpg",
       opts: {
-      series: ["IZ-ONE"],
+      series: ["IZ*ONE", "Soloist"],
       stage: ["st4"]
       }
     },
@@ -928,7 +970,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Yena",
       img: "Yena_IZ-ONE.jpg",
       opts: {
-      series: ["IZ-ONE", "Soloist"],
+      series: ["IZ*ONE", "Soloist"],
       stage: ["st4"]
       }
     },
@@ -936,7 +978,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Hyewon",
       img: "Hyewon_IZ-ONE.jpg",
       opts: {
-      series: ["IZ-ONE"],
+      series: ["IZ*ONE"],
       stage: ["st4"]
       }
     },
@@ -944,7 +986,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Yuri",
       img: "Yuri_IZ-ONE.jpg",
       opts: {
-      series: ["IZ-ONE"],
+      series: ["IZ*ONE", "Soloist"],
       stage: ["st4"]
       }
     },
@@ -952,7 +994,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Nako",
       img: "Nako_IZ-ONE.jpg",
       opts: {
-      series: ["IZ-ONE"],
+      series: ["IZ*ONE"],
       stage: ["st4"]
       }
     },
@@ -960,12 +1002,12 @@ dataSet[dataSetVersion].characterData = [
       name: "Hitomi",
       img: "Hitomi_IZ-ONE.jpg",
       opts: {
-      series: ["IZ-ONE"],
+      series: ["IZ*ONE"],
       stage: ["st4"]
       }
     },
   {
-      name: "Huening",
+      name: "Kai's sister",
       img: "Huening_Kep1er.jpg",
       opts: {
       series: ["Kep1er"],
@@ -1080,7 +1122,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Sakura",
       img: "Sakura_LE-SSERAFIM.jpg",
       opts: {
-      series: ["LE-SSERAFIM"],
+      series: ["LE SSERAFIM", "IZ*ONE"],
       stage: ["st4"]
       }
     },
@@ -1088,7 +1130,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Chaewon",
       img: "Chaewon_LE-SSERAFIM.jpg",
       opts: {
-      series: ["LE-SSERAFIM"],
+      series: ["LE SSERAFIM", "IZ*ONE"],
       stage: ["st4"]
       }
     },
@@ -1096,7 +1138,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Yunjin",
       img: "Huh_LE-SSERAFIM.jpg",
       opts: {
-      series: ["LE-SSERAFIM"],
+      series: ["LE SSERAFIM"],
       stage: ["st4"]
       }
     },
@@ -1104,7 +1146,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Kazuha",
       img: "Kazuha_LE-SSERAFIM.jpg",
       opts: {
-      series: ["LE-SSERAFIM"],
+      series: ["LE SSERAFIM"],
       stage: ["st4"]
       }
     },
@@ -1112,7 +1154,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Eunchae",
       img: "Eunchae_LE-SSERAFIM.jpg",
       opts: {
-      series: ["LE-SSERAFIM"],
+      series: ["LE SSERAFIM"],
       stage: ["st4"]
       }
     },
@@ -1120,7 +1162,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Garam",
       img: "Garam_LE-SSERAFIM.jpg",
       opts: {
-      series: ["LE-SSERAFIM"],
+      series: ["LE SSERAFIM"],
       stage: ["st4"]
       }
     },
@@ -1341,7 +1383,7 @@ dataSet[dataSetVersion].characterData = [
       }
     },
   {
-      name: "Lee",
+      name: "Baby Soul",
       img: "Lee_Lovelyz.jpg",
       opts: {
       series: ["Lovelyz"],
@@ -1600,7 +1642,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Arin",
       img: "Arin_OH-MY-GIRL.jpg",
       opts: {
-      series: ["OH-MY-GIRL"],
+      series: ["OH MY GIRL"],
       stage: ["st3"]
       }
     },
@@ -1608,7 +1650,7 @@ dataSet[dataSetVersion].characterData = [
       name: "YooA",
       img: "YooA_OH-MY-GIRL.jpg",
       opts: {
-      series: ["OH-MY-GIRL"],
+      series: ["OH MY GIRL"],
       stage: ["st3"]
       }
     },
@@ -1616,7 +1658,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Yubin",
       img: "Yubin_OH-MY-GIRL.jpg",
       opts: {
-      series: ["OH-MY-GIRL"],
+      series: ["OH MY GIRL"],
       stage: ["st3"]
       }
     },
@@ -1624,7 +1666,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Mimi",
       img: "Mimi_OH-MY-GIRL.jpg",
       opts: {
-      series: ["OH-MY-GIRL"],
+      series: ["OH MY GIRL"],
       stage: ["st3"]
       }
     },
@@ -1632,7 +1674,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Hyojung",
       img: "Hyojung_OH-MY-GIRL.jpg",
       opts: {
-      series: ["OH-MY-GIRL"],
+      series: ["OH MY GIRL"],
       stage: ["st3"]
       }
     },
@@ -1640,7 +1682,15 @@ dataSet[dataSetVersion].characterData = [
       name: "Seunghee",
       img: "Seunghee_OH-MY-GIRL.jpg",
       opts: {
-      series: ["OH-MY-GIRL"],
+      series: ["OH MY GIRL"],
+      stage: ["st3"]
+      }
+    },
+  {
+      name: "Jiho",
+      img: "Jiho_Oh_My_Girl.jpg",
+      opts: {
+      series: ["OH MY GIRL"],
       stage: ["st3"]
       }
     },
@@ -1700,11 +1750,67 @@ dataSet[dataSetVersion].characterData = [
       stage: ["st4"]
       }
     },
+    {
+          name: "Goeun",
+          img: "Goeun_Purple_Kiss.jpg",
+          opts: {
+          series: ["Purple Kiss"],
+          stage: ["st4"]
+          }
+        },
+    {
+          name: "Swan",
+          img: "Swan_Purple_Kiss.jpg",
+          opts: {
+          series: ["Purple Kiss"],
+          stage: ["st4"]
+          }
+        },
+    {
+          name: "Dosie",
+          img: "Dosie_Purple_Kiss.jpg",
+          opts: {
+          series: ["Purple Kiss"],
+          stage: ["st4"]
+          }
+        },
+    {
+          name: "Chaein",
+          img: "Chaein_Purple_Kiss.jpg",
+          opts: {
+          series: ["Purple Kiss"],
+          stage: ["st4"]
+          }
+        },
+    {
+          name: "Yuki",
+          img: "Yuki_Purple_Kiss.jpg",
+          opts: {
+          series: ["Purple Kiss"],
+          stage: ["st4"]
+          }
+        },
+    {
+          name: "Ireh",
+          img: "Ireh_Purple_Kiss.jpg",
+          opts: {
+          series: ["Purple Kiss"],
+          stage: ["st4"]
+          }
+        },
+    {
+          name: "Jieun",
+          img: "Jieun_Purple_Kiss.jpg",
+          opts: {
+          series: ["Purple Kiss"],
+          stage: ["st4"]
+          }
+        },
   {
       name: "Irene",
       img: "Irene_Red-Velvet.jpg",
       opts: {
-      series: ["Red-Velvet"],
+      series: ["Red Velvet"],
       stage: ["st3"]
       }
     },
@@ -1712,7 +1818,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Seulgi",
       img: "Seulgi_Red-Velvet.jpg",
       opts: {
-      series: ["Red-Velvet"],
+      series: ["Red Velvet"],
       stage: ["st3"]
       }
     },
@@ -1720,7 +1826,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Wendy",
       img: "Wendy_Red-Velvet.jpg",
       opts: {
-      series: ["Red-Velvet"],
+      series: ["Red Velvet"],
       stage: ["st3"]
       }
     },
@@ -1728,7 +1834,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Joy",
       img: "Joy_Red-Velvet.jpg",
       opts: {
-      series: ["Red-Velvet"],
+      series: ["Red Velvet"],
       stage: ["st3"]
       }
     },
@@ -1736,7 +1842,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Yeri",
       img: "Yeri_Red-Velvet.jpg",
       opts: {
-      series: ["Red-Velvet"],
+      series: ["Red Velvet"],
       stage: ["st3"]
       }
     },
@@ -1744,7 +1850,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Yeonhee",
       img: "Yeonhee_Rocket-Punch.jpg",
       opts: {
-      series: ["Rocket-Punch"],
+      series: ["Rocket Punch"],
       stage: ["st4"]
       }
     },
@@ -1752,7 +1858,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Juri",
       img: "Juri_Rocket-Punch.jpg",
       opts: {
-      series: ["Rocket-Punch"],
+      series: ["Rocket Punch"],
       stage: ["st4"]
       }
     },
@@ -1760,7 +1866,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Dahyun",
       img: "Dahyun_Rocket-Punch.jpg",
       opts: {
-      series: ["Rocket-Punch"],
+      series: ["Rocket Punch"],
       stage: ["st4"]
       }
     },
@@ -1768,7 +1874,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Yunkyoung",
       img: "Yunkyoung_Rocket-Punch.jpg",
       opts: {
-      series: ["Rocket-Punch"],
+      series: ["Rocket Punch"],
       stage: ["st4"]
       }
     },
@@ -1776,7 +1882,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Suyun",
       img: "Suyun_Rocket-Punch.jpg",
       opts: {
-      series: ["Rocket-Punch"],
+      series: ["Rocket Punch"],
       stage: ["st4"]
       }
     },
@@ -1784,7 +1890,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Sohee",
       img: "Sohee_Rocket-Punch.jpg",
       opts: {
-      series: ["Rocket-Punch"],
+      series: ["Rocket Punch"],
       stage: ["st4"]
       }
     },
@@ -1840,7 +1946,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Jia",
       img: "Jia_TRI-BE.jpg",
       opts: {
-      series: ["TRI-BE"],
+      series: ["TRI.BE"],
       stage: ["st4"]
       }
     },
@@ -1848,7 +1954,7 @@ dataSet[dataSetVersion].characterData = [
       name: "HyunBin",
       img: "HyunBin_TRI-BE.jpg",
       opts: {
-      series: ["TRI-BE"],
+      series: ["TRI.BE"],
       stage: ["st4"]
       }
     },
@@ -1856,7 +1962,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Kelly",
       img: "Kelly_TRI-BE.jpg",
       opts: {
-      series: ["TRI-BE"],
+      series: ["TRI.BE"],
       stage: ["st4"]
       }
     },
@@ -1864,7 +1970,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Mire",
       img: "Mire_TRI-BE.jpg",
       opts: {
-      series: ["TRI-BE"],
+      series: ["TRI.BE"],
       stage: ["st4"]
       }
     },
@@ -1872,7 +1978,7 @@ dataSet[dataSetVersion].characterData = [
       name: "JinHa",
       img: "JinHa_TRI-BE.jpg",
       opts: {
-      series: ["TRI-BE"],
+      series: ["TRI.BE"],
       stage: ["st4"]
       }
     },
@@ -1880,7 +1986,7 @@ dataSet[dataSetVersion].characterData = [
       name: "SoEun",
       img: "SoEun_TRI-BE.jpg",
       opts: {
-      series: ["TRI-BE"],
+      series: ["TRI.BE"],
       stage: ["st4"]
       }
     },
@@ -1888,7 +1994,7 @@ dataSet[dataSetVersion].characterData = [
       name: "SongSun",
       img: "SongSun_TRI-BE.jpg",
       opts: {
-      series: ["TRI-BE"],
+      series: ["TRI.BE"],
       stage: ["st4"]
       }
     },
@@ -2024,7 +2130,7 @@ dataSet[dataSetVersion].characterData = [
        name: "Doyeon",
        img: "Doyeon_Weki-Meki.jpg",
        opts: {
-       series: ["Weki-Meki"],
+       series: ["Weki Meki"],
        stage: ["st3"]
        }
      },
@@ -2032,7 +2138,7 @@ dataSet[dataSetVersion].characterData = [
        name: "Elly",
        img: "Elly_Weki-Meki.jpg",
        opts: {
-       series: ["Weki-Meki"],
+       series: ["Weki Meki"],
        stage: ["st3"]
        }
      },
@@ -2040,7 +2146,7 @@ dataSet[dataSetVersion].characterData = [
        name: "Yoojung",
        img: "Yoojung_Weki-Meki.jpg",
        opts: {
-       series: ["Weki-Meki"],
+       series: ["Weki Meki"],
        stage: ["st3"]
        }
      },
@@ -2048,7 +2154,7 @@ dataSet[dataSetVersion].characterData = [
        name: "Sei",
        img: "Sei_Weki-Meki.jpg",
        opts: {
-       series: ["Weki-Meki"],
+       series: ["Weki Meki"],
        stage: ["ste"]
        }
      },
@@ -2056,7 +2162,7 @@ dataSet[dataSetVersion].characterData = [
        name: "Rina",
        img: "Rina_Weki-Meki.jpg",
        opts: {
-       series: ["Weki-Meki"],
+       series: ["Weki Meki"],
        stage: ["st3"]
        }
      },
@@ -2064,7 +2170,7 @@ dataSet[dataSetVersion].characterData = [
        name: "Lua",
        img: "Lua_Weki-Meki.jpg",
        opts: {
-       series: ["Weki-Meki"],
+       series: ["Weki Meki"],
        stage: ["st3"]
        }
      },
@@ -2072,7 +2178,7 @@ dataSet[dataSetVersion].characterData = [
        name: "Lucy",
        img: "Lucy_Weki-Meki.jpg",
        opts: {
-       series: ["Weki-Meki"],
+       series: ["Weki Meki"],
        stage: ["st3"]
        }
      },
@@ -2080,7 +2186,7 @@ dataSet[dataSetVersion].characterData = [
        name: "Suyeon",
        img: "Suyeon_Weki-Meki.jpg",
        opts: {
-       series: ["Weki-Meki"],
+       series: ["Weki Meki"],
        stage: ["st3"]
        }
      },
@@ -2192,7 +2298,7 @@ dataSet[dataSetVersion].characterData = [
          name: "Yuqi",
          img: "Yuqi_G-I-DLE.jpg",
          opts: {
-         series: ["G-I-DLE"],
+         series: ["(G)I-DLE"],
          stage: ["st4"]
          }
        },
@@ -2200,7 +2306,7 @@ dataSet[dataSetVersion].characterData = [
          name: "Soyeon",
          img: "Soyeon_G-I-DLE.jpg",
          opts: {
-         series: ["G-I-DLE"],
+         series: ["(G)I-DLE"],
          stage: ["st4"]
          }
        },
@@ -2208,7 +2314,7 @@ dataSet[dataSetVersion].characterData = [
          name: "Miyeon",
          img: "Miyeon_G-I-DLE.jpg",
          opts: {
-         series: ["G-I-DLE"],
+         series: ["(G)I-DLE"],
          stage: ["st4"]
          }
        },
@@ -2216,7 +2322,7 @@ dataSet[dataSetVersion].characterData = [
          name: "Shuhua",
          img: "Shuhua_G-I-DLE.jpg",
          opts: {
-         series: ["G-I-DLE"],
+         series: ["(G)I-DLE"],
          stage: ["st4"]
          }
        },
@@ -2224,7 +2330,7 @@ dataSet[dataSetVersion].characterData = [
          name: "Minnie",
          img: "Minnie_G-I-DLE.jpg",
          opts: {
-         series: ["G-I-DLE"],
+         series: ["(G)I-DLE"],
          stage: ["st4"]
          }
        },
@@ -2232,7 +2338,7 @@ dataSet[dataSetVersion].characterData = [
          name: "Soojin",
          img: "Soojin_G-I-DLE.jpg",
          opts: {
-         series: ["G-I-DLE"],
+         series: ["(G)I-DLE"],
          stage: ["st4"]
          }
        },
@@ -2284,6 +2390,14 @@ dataSet[dataSetVersion].characterData = [
          stage: ["st2"]
          }
        },
+       {
+          name: "Seohyun",
+          img: "Seohyun_Girls-Generation.jpg",
+          opts: {
+            series: ["SNSD"],
+            stage: ["st2"]
+               }
+            },
    {
            name: "Yuri",
            img: "Yuri-Girls-Generation.jpg",
@@ -2360,6 +2474,54 @@ dataSet[dataSetVersion].characterData = [
 {
          name: "Chungha",
          img: "Chungha.jpg",
+         opts: {
+         series: ["Soloist"],
+         stage: ["st3"]
+         }
+       },
+{
+         name: "Hyolyn",
+         img: "Hyolyn.jpg",
+         opts: {
+         series: ["Soloist"],
+         stage: ["st2"]
+         }
+       },
+{
+         name: "Youha",
+         img: "Youha.jpg",
+         opts: {
+         series: ["Soloist"],
+         stage: ["st4"]
+         }
+       },
+{
+         name: "Yukika",
+         img: "Yukika.jpg",
+         opts: {
+         series: ["Soloist"],
+         stage: ["st3"]
+         }
+       },
+{
+         name: "Younha",
+         img: "Younha.jpg",
+         opts: {
+         series: ["Soloist"],
+         stage: ["st1"]
+         }
+       },
+{
+         name: "BoA",
+         img: "BoA.jpg",
+         opts: {
+         series: ["Soloist"],
+         stage: ["st1"]
+         }
+       },
+{
+         name: "Sori",
+         img: "Sori.jpg",
          opts: {
          series: ["Soloist"],
          stage: ["st3"]
