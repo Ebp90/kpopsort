@@ -3,7 +3,7 @@ dataSet[dataSetVersion] = {};
 
 dataSet[dataSetVersion].options = [
   {
-    name: "Filter by Series Entry",
+    name: "Filter by Groups",
     key: "series",
     tooltip: "Check this to choose the groups you want to appear",
     checked: false,
@@ -303,7 +303,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
 {
-    name: "Moon",
+    name: "Moon Sua",
     img: "Moon_Billlie.jpg",
     opts: {
     series: ["Billlie"],
@@ -2271,7 +2271,7 @@ dataSet[dataSetVersion].characterData = [
        }
      },
    {
-       name: "Mei",
+       name: "Mei Qi",
        img: "Mei_WJSN.jpg",
        opts: {
        series: ["WJSN"],
