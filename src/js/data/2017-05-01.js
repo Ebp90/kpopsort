@@ -103,7 +103,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
 {
-    name: "Sohee",
+    name: "Sohee (Alice)",
     img: "Sohee_ALICE.jpg",
     opts: {
     series: ["ALICE"],
@@ -135,7 +135,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
 {
-    name: "Karin",
+    name: "Karin)",
     img: "Karin_ALICE.jpg",
     opts: {
     series: ["ALICE"],
@@ -167,7 +167,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
 {
-    name: "Jimin",
+    name: "Jimin (AOA)",
     img: "Jimin_AOA.jpg",
     opts: {
     series: ["AOA"],
@@ -183,7 +183,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
 {
-    name: "Yuna",
+    name: "Yuna (AOA)",
     img: "Yuna_AOA.jpg",
     opts: {
     series: ["AOA"],
@@ -207,7 +207,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
 {
-    name: "Mina",
+    name: "Mina (AOA)",
     img: "Mina_AOA.jpg",
     opts: {
     series: ["AOA"],
@@ -231,7 +231,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
 {
-    name: "Hayoung",
+    name: "Hayoung (Apink)",
     img: "Hayoung_Apink.jpg",
     opts: {
     series: ["Apink"],
@@ -239,7 +239,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
 {
-    name: "Eunji",
+    name: "Eunji (Apink)",
     img: "Eunji_Apink.jpg",
     opts: {
     series: ["Apink"],
@@ -335,7 +335,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
 {
-    name: "Yuna",
+    name: "Yuna (Brave Girls)",
     img: "Yuna_Brave-Girls.jpg",
     opts: {
     series: ["Brave Girls"],
@@ -343,7 +343,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
 {
-    name: "Eunji",
+    name: "Eunji (Brave Girls)",
     img: "Eunji_Brave-Girls.jpg",
     opts: {
     series: ["Brave Girls"],
@@ -351,7 +351,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
 {
-    name: "Yujeong",
+    name: "Yujeong (Brave Girls)",
     img: "Yujeong_Brave-Girls.jpg",
     opts: {
     series: ["Brave Girls"],
@@ -367,7 +367,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
 {
-    name: "Jiwon",
+    name: "Jiwon (Cherry Bullet)",
     img: "Jiwon_Cherry-Bullet.jpg",
     opts: {
     series: ["Cherry Bullet"],
@@ -375,7 +375,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
 {
-    name: "Yuju",
+    name: "Yuju (Cherry Bullet)",
     img: "Yuju_Cherry-Bullet.jpg",
     opts: {
     series: ["Cherry Bullet"],
@@ -431,7 +431,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
 {
-    name: "Chaewon",
+    name: "Chaewon (CLASS:y)",
     img: "Chaewon_Classy.jpg",
     opts: {
     series: ["CLASS:y"],
@@ -455,7 +455,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
 {
-    name: "Jimin",
+    name: "Jimin (CLASS:y)",
     img: "Jimin_Classy.jpg",
     opts: {
     series: ["CLASS:y"],
@@ -479,7 +479,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
 {
-    name: "Seoyeon",
+    name: "Seoyeon (CSR)",
     img: "Seoyeon_CSR.jpg",
     opts: {
     series: ["CSR"],
@@ -487,7 +487,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
 {
-    name: "Sihyeon",
+    name: "Sihyeon (CSR)",
     img: "Sihyeon_CSR.jpg",
     opts: {
     series: ["CSR"],
@@ -495,7 +495,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
 {
-    name: "Yuna",
+    name: "Yuna (CSR)",
     img: "Yuna_CSR.jpg",
     opts: {
     series: ["CSR"],
@@ -527,7 +527,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
 {
-    name: "Sua",
+    name: "Sua (CSR)",
     img: "Sua_CSR.jpg",
     opts: {
     series: ["CSR"],
@@ -559,7 +559,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
 {
-    name: "SuA",
+    name: "SuA (Dreamcatcher)",
     img: "SuA_Dreamcatcher.jpg",
     opts: {
     series: ["Dreamcatcher"],
@@ -615,7 +615,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
 {
-    name: "Sumin",
+    name: "Sumin (DreamNote)",
     img: "Sumin_DreamNote.jpg",
     opts: {
     series: ["DreamNote"],
@@ -663,7 +663,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
 {
-    name: "Sihyeon",
+    name: "Sihyeon (EVERGLOW)",
     img: "Sihyeon_EVERGLOW.jpg",
     opts: {
     series: ["EVERGLOW"],
@@ -711,7 +711,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
 {
-    name: "Chaeyoung",
+    name: "Chaeyoung (fromis_9)",
     img: "Chaeyoung_fromis-9.jpg",
     opts: {
     series: ["fromis_9"],
@@ -719,7 +719,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
 {
-    name: "Jiwon",
+    name: "Megan",
     img: "Jiwon_fromis-9.jpg",
     opts: {
     series: ["fromis_9"],
@@ -727,7 +727,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
 {
-    name: "Hayoung",
+    name: "Hayoung (fromis_9)",
     img: "Hayoung_fromis-9.jpg",
     opts: {
     series: ["fromis_9"],
@@ -751,7 +751,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
 {
-    name: "Seoyeon",
+    name: "Seoyeon (fromis_9)",
     img: "Seoyeon_fromis-9.jpg",
     opts: {
     series: ["fromis_9"],
@@ -791,7 +791,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
 {
-    name: "Yuju",
+    name: "Yuju (GFRIEND)",
     img: "Yuju_GFRIEND.jpg",
     opts: {
     series: ["GFRIEND", "Soloist"],
@@ -871,7 +871,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
 {
-    name: "Yuna",
+    name: "Yuna (ITZY)",
     img: "Yuna_ITZY.jpg",
     opts: {
     series: ["ITZY"],
@@ -903,7 +903,7 @@ dataSet[dataSetVersion].characterData = [
       }
     },
   {
-      name: "Yujin",
+      name: "Yujin (IVE)",
       img: "Yujin_IVE.jpg",
       opts: {
       series: ["IVE", "IZ*ONE"],
@@ -983,7 +983,7 @@ dataSet[dataSetVersion].characterData = [
       }
     },
   {
-      name: "Yuri",
+      name: "Yuri (IZ*ONE)",
       img: "Yuri_IZ-ONE.jpg",
       opts: {
       series: ["IZ*ONE", "Soloist"],
@@ -1031,7 +1031,7 @@ dataSet[dataSetVersion].characterData = [
       }
     },
   {
-      name: "Yujin",
+      name: "Yujin (Kep1er)",
       img: "Yujin_Kep1er.jpg",
       opts: {
       series: ["Kep1er"],
@@ -1065,6 +1065,14 @@ dataSet[dataSetVersion].characterData = [
   {
       name: "Yeseo",
       img: "Yeseo_Kep1er.jpg",
+      opts: {
+      series: ["Kep1er"],
+      stage: ["st4"]
+      }
+    },
+{
+      name: "Mashiro",
+      img: "Mashiro_Kep1er.jpg",
       opts: {
       series: ["Kep1er"],
       stage: ["st4"]
@@ -1127,7 +1135,7 @@ dataSet[dataSetVersion].characterData = [
       }
     },
   {
-      name: "Chaewon",
+      name: "Chaewon (LE SSERAFIM)",
       img: "Chaewon_LE-SSERAFIM.jpg",
       opts: {
       series: ["LE SSERAFIM", "IZ*ONE"],
@@ -1199,7 +1207,7 @@ dataSet[dataSetVersion].characterData = [
       }
     },
   {
-      name: "Yujeong",
+      name: "Yujeong (LIGHTSUM)",
       img: "Yujeong_LIGHTSUM.jpg",
       opts: {
       series: ["LIGHTSUM"],
@@ -1703,7 +1711,7 @@ dataSet[dataSetVersion].characterData = [
       }
     },
   {
-      name: "Sua",
+      name: "Sua (PIXY)",
       img: "Sua_PIXY.jpg",
       opts: {
       series: ["PIXY"],
@@ -1863,7 +1871,7 @@ dataSet[dataSetVersion].characterData = [
       }
     },
   {
-      name: "Dahyun",
+      name: "Dahyun (Rocket Punch)",
       img: "Dahyun_Rocket-Punch.jpg",
       opts: {
       series: ["Rocket Punch"],
@@ -1887,7 +1895,7 @@ dataSet[dataSetVersion].characterData = [
       }
     },
   {
-      name: "Sohee",
+      name: "Sohee (Rocket Punch)",
       img: "Sohee_Rocket-Punch.jpg",
       opts: {
       series: ["Rocket Punch"],
@@ -1903,7 +1911,7 @@ dataSet[dataSetVersion].characterData = [
       }
     },
   {
-      name: "Sumin",
+      name: "Sumin (STAYC)",
       img: "Sumin_STAYC.jpg",
       opts: {
       series: ["STAYC"],
@@ -1983,7 +1991,7 @@ dataSet[dataSetVersion].characterData = [
       }
     },
   {
-      name: "SoEun",
+      name: "SoEun (TRI.BE",
       img: "SoEun_TRI-BE.jpg",
       opts: {
       series: ["TRI.BE"],
@@ -2015,7 +2023,7 @@ dataSet[dataSetVersion].characterData = [
       }
     },
   {
-      name: "Dahyun",
+      name: "Dahyun (TWICE)",
       img: "Dahyun_TWICE.jpg",
       opts: {
       series: ["TWICE"],
@@ -2039,7 +2047,7 @@ dataSet[dataSetVersion].characterData = [
       }
     },
   {
-      name: "Mina",
+      name: "Mina (TWICE)",
       img: "Mina_TWICE.jpg",
       opts: {
       series: ["TWICE"],
@@ -2055,7 +2063,7 @@ dataSet[dataSetVersion].characterData = [
       }
     },
   {
-      name: "Chaeyoung",
+      name: "Chaeyoung (TWICE)",
       img: "Chaeyoung_TWICE.jpg",
       opts: {
       series: ["TWICE"],
@@ -2087,7 +2095,7 @@ dataSet[dataSetVersion].characterData = [
        }
      },
    {
-       name: "Soojin",
+       name: "Soojin (Weeekly)",
        img: "Soojin_Weeekly.jpg",
        opts: {
        series: ["Weeekly"],
@@ -2111,7 +2119,7 @@ dataSet[dataSetVersion].characterData = [
        }
      },
    {
-       name: "Soeun",
+       name: "Soeun (Weeekly)",
        img: "Soeun_Weeekly.jpg",
        opts: {
        series: ["Weeekly"],
@@ -2175,7 +2183,7 @@ dataSet[dataSetVersion].characterData = [
        }
      },
    {
-       name: "Lucy",
+       name: "Lucy (Weki Meki)",
        img: "Lucy_Weki-Meki.jpg",
        opts: {
        series: ["Weki Meki"],
@@ -2335,7 +2343,7 @@ dataSet[dataSetVersion].characterData = [
          }
        },
      {
-         name: "Soojin",
+         name: "Soojin ((G)I-DLE)",
          img: "Soojin_G-I-DLE.jpg",
          opts: {
          series: ["(G)I-DLE"],
@@ -2399,7 +2407,7 @@ dataSet[dataSetVersion].characterData = [
                }
             },
    {
-           name: "Yuri",
+           name: "Yuri (SNSD)",
            img: "Yuri-Girls-Generation.jpg",
            opts: {
            series: ["SNSD"],
@@ -2440,7 +2448,7 @@ dataSet[dataSetVersion].characterData = [
                               }
                             },
                                     {
-                                            name: "Lucy",
+                                            name: "Lucy (Woo!Ah!)",
                                             img: "Lucy_Wooah.jpg",
                                             opts: {
                                             series: ["Woo!Ah!"],
