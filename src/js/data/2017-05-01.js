@@ -54,6 +54,7 @@ dataSet[dataSetVersion].options = [
       { name: "WJSN", key: "WJSN" },
       { name: "Woo!Ah!", key: "Woo!Ah!" },
       { name: "XG", key: "XG" },
+      { name: "TripleS", key: "TripleS" },
     ]
   },
   {
