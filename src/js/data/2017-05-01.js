@@ -53,6 +53,7 @@ dataSet[dataSetVersion].options = [
       { name: "Weki Meki", key: "Weki Meki" },
       { name: "WJSN", key: "WJSN" },
       { name: "Woo!Ah!", key: "Woo!Ah!" },
+      { name: "XG", key: "XG" },
     ]
   },
   {
@@ -1631,7 +1632,7 @@ dataSet[dataSetVersion].characterData = [
       }
     },
   {
-      name: "Jiwoo",
+      name: "Jiwoo (NMIXX)",
       img: "Jiwoo_NMIXX.jpg",
       opts: {
       series: ["NMIXX"],
@@ -2535,4 +2536,124 @@ dataSet[dataSetVersion].characterData = [
          stage: ["st3"]
          }
        },
+{
+    name: "Chisa",
+    img: "Chisa.jpg",
+    opts: {
+    series: ["XG"],
+    stage: ["st4"]
+    }
+  },
+{
+    name: "Hinata",
+    img: "Hinata.jpg",
+    opts: {
+    series: ["XG"],
+    stage: ["st4"]
+    }
+  },
+  {
+      name: "Jurin",
+      img: "Jurin.jpg",
+      opts: {
+      series: ["XG"],
+      stage: ["st4"]
+      }
+    },
+    {
+          name: "Harvey",
+          img: "Harvey.jpg",
+          opts: {
+          series: ["XG"],
+          stage: ["st4"]
+          }
+        },
+{
+    name: "Juria",
+    img: "Juria.jpg",
+    opts: {
+    series: ["XG"],
+    stage: ["st4"]
+    }
+  },
+{
+    name: "Maya (XG)",
+    img: "Maya_XG.jpg",
+    opts: {
+    series: ["XG"],
+    stage: ["st4"]
+    }
+  },
+{
+    name: "Cocona",
+    img: "Cocona.jpg",
+    opts: {
+    series: ["XG"],
+    stage: ["st4"]
+    }
+  },
+{
+    name: "Hyerin",
+    img: "Hyerin.jpg",
+    opts: {
+    series: ["TripleS"],
+    stage: ["st4"]
+    }
+  },
+{
+    name: "Kaede",
+    img: "Kaede.jpg",
+    opts: {
+    series: ["TripleS"],
+    stage: ["st4"]
+    }
+  },
+{
+    name: "Jiwoo (TripleS)",
+    img: "Jiwoo_TripleS.jpg",
+    opts: {
+    series: ["TripleS"],
+    stage: ["st4"]
+    }
+  },
+{
+    name: "Yubin (TripleS)",
+    img: "Yubin_TripleS.jpg",
+    opts: {
+    series: ["TripleS"],
+    stage: ["st4"]
+    }
+  },
+{
+    name: "Chaeyeon (TripleS)",
+    img: "Chaeyeon_TripleS.jpg",
+    opts: {
+    series: ["TripleS"],
+    stage: ["st4"]
+    }
+  },
+{
+    name: "Kotone",
+    img: "Kotone.jpg",
+    opts: {
+    series: ["TripleS"],
+    stage: ["st4"]
+    }
+  },
+{
+    name: "Seoyeon (TripleS)",
+    img: "Seoyeon_TripleS.jpg",
+    opts: {
+    series: ["TripleS"],
+    stage: ["st4"]
+    }
+  },
+{
+    name: "Nakyoung (TripleS)",
+    img: "Nakyoung_TripleS.jpg",
+    opts: {
+    series: ["TripleS"],
+    stage: ["st4"]
+    }
+  },
 ];
