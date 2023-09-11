@@ -2657,4 +2657,52 @@ dataSet[dataSetVersion].characterData = [
     stage: ["st4"]
     }
   },
+{
+    name: "Yooyeon (TripleS)",
+    img: "Yooyeon_TripleS.jpg",
+    opts: {
+    series: ["TripleS"],
+    stage: ["st4"]
+    }
+  },
+{
+    name: "Mayu",
+    img: "Mayu.jpg",
+    opts: {
+    series: ["TripleS"],
+    stage: ["st4"]
+    }
+  },
+{
+    name: "Xinyu",
+    img: "Xinyu.jpg",
+    opts: {
+    series: ["TripleS"],
+    stage: ["st4"]
+    }
+  },
+{
+    name: "Dahyun (TripleS)",
+    img: "Dahyun_TripleS.jpg",
+    opts: {
+    series: ["TripleS"],
+    stage: ["st4"]
+    }
+  },
+{
+    name: "Nien",
+    img: "Nien.jpg",
+    opts: {
+    series: ["TripleS"],
+    stage: ["st4"]
+    }
+  },
+{
+    name: "Soomin (TripleS)",
+    img: "Soomin_TripleS.jpg",
+    opts: {
+    series: ["TripleS"],
+    stage: ["st4"]
+    }
+  },
 ];
