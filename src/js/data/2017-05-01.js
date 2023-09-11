@@ -2705,4 +2705,12 @@ dataSet[dataSetVersion].characterData = [
     stage: ["st4"]
     }
   },
+{
+    name: "Sohyun",
+    img: "Sohyun.jpg",
+    opts: {
+    series: ["TripleS"],
+    stage: ["st4"]
+    }
+  },
 ];
