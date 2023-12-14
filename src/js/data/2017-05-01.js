@@ -2724,14 +2724,6 @@ dataSet[dataSetVersion].characterData = [
     }
   },
 {
-    name: "Julie",
-    img: "Julie.jpg",
-    opts: {
-    series: ["KISS OF LIFE"],
-    stage: ["st4"]
-    }
-  },
-{
     name: "Natty",
     img: "Natty.jpg",
     opts: {
