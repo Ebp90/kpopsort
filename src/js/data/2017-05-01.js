@@ -19,6 +19,7 @@ dataSet[dataSetVersion].options = [
       { name: "CSR", key: "CSR" },
       { name: "Dreamcatcher", key: "Dreamcatcher" },
       { name: "DreamNote", key: "DreamNote" },
+      { name: "EL7Z UP", key: "EL7Z UP" },
       { name: "EVERGLOW", key: "EVERGLOW" },
       { name: "fromis_9", key: "fromis_9" },
       { name: "(G)I-DLE", key: "(G)I-DLE" },
@@ -27,6 +28,7 @@ dataSet[dataSetVersion].options = [
       { name: "ITZY", key: "ITZY" },
       { name: "IVE", key: "IVE" },
       { name: "IZ*ONE", key: "IZ*ONE" },
+      { name: "KISS OF LIFE", key: "KISS OF LIFE" },
       { name: "Kep1er", key: "Kep1er" },
       { name: "Lapillus", key: "Lapillus" },
       { name: "LE SSERAFIM", key: "LE SSERAFIM" },
@@ -47,6 +49,7 @@ dataSet[dataSetVersion].options = [
       { name: "Soloist", key: "Soloist" },
       { name: "STAYC", key: "STAYC" },
       { name: "TRI.BE", key: "TRI.BE" },
+      { name: "TripleS", key: "TripleS" },
       { name: "TWICE", key: "TWICE" },
       { name: "VIVIZ", key: "VIVIZ" },
       { name: "Weeekly", key: "Weeekly" },
@@ -54,7 +57,6 @@ dataSet[dataSetVersion].options = [
       { name: "WJSN", key: "WJSN" },
       { name: "Woo!Ah!", key: "Woo!Ah!" },
       { name: "XG", key: "XG" },
-      { name: "TripleS", key: "TripleS" },
     ]
   },
   {
@@ -844,7 +846,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Hwiseo",
     img: "Hwiseo_H1-KEY.jpg",
     opts: {
-    series: ["H1-KEY"],
+    series: ["H1-KEY", "EL7Z UP"],
     stage: ["st4"]
     }
   },
@@ -1380,7 +1382,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Kei",
       img: "Kei_Lovelyz.jpg",
       opts: {
-      series: ["Lovelyz"],
+      series: ["Lovelyz", "EL7Z UP"],
       stage: ["st3"]
       }
     },
@@ -1796,7 +1798,7 @@ dataSet[dataSetVersion].characterData = [
           name: "Yuki",
           img: "Yuki_Purple_Kiss.jpg",
           opts: {
-          series: ["Purple Kiss"],
+          series: ["Purple Kiss", "EL7Z UP"],
           stage: ["st4"]
           }
         },
@@ -1860,7 +1862,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Yeonhee",
       img: "Yeonhee_Rocket-Punch.jpg",
       opts: {
-      series: ["Rocket Punch"],
+      series: ["Rocket Punch", "EL7Z UP"],
       stage: ["st4"]
       }
     },
@@ -2252,7 +2254,7 @@ dataSet[dataSetVersion].characterData = [
        name: "Yeoreum",
        img: "Yeoreum_WJSN.jpg",
        opts: {
-       series: ["WJSN"],
+       series: ["WJSN", "EL7Z UP"],
        stage: ["st3"]
        }
      },
@@ -2429,7 +2431,7 @@ dataSet[dataSetVersion].characterData = [
                 name: "Nana",
                 img: "Nana_Wooah.jpg",
                 opts: {
-                series: ["Woo!Ah!"],
+                series: ["Woo!Ah!", "EL7Z UP"],
                 stage: ["st4"]
                 }
               },
@@ -2503,14 +2505,6 @@ dataSet[dataSetVersion].characterData = [
          opts: {
          series: ["Soloist"],
          stage: ["st4"]
-         }
-       },
-{
-         name: "Yukika",
-         img: "Yukika.jpg",
-         opts: {
-         series: ["Soloist"],
-         stage: ["st3"]
          }
        },
 {
@@ -2710,6 +2704,54 @@ dataSet[dataSetVersion].characterData = [
     img: "Sohyun.jpg",
     opts: {
     series: ["TripleS"],
+    stage: ["st4"]
+    }
+  },
+{
+    name: "Yeeun",
+    img: "Yeeun.jpg",
+    opts: {
+    series: ["EL7Z UP"],
+    stage: ["st4"]
+    }
+  },
+{
+    name: "Julie",
+    img: "Julie.jpg",
+    opts: {
+    series: ["KISS OF LIFE"],
+    stage: ["st4"]
+    }
+  },
+{
+    name: "Julie",
+    img: "Julie.jpg",
+    opts: {
+    series: ["KISS OF LIFE"],
+    stage: ["st4"]
+    }
+  },
+{
+    name: "Natty",
+    img: "Natty.jpg",
+    opts: {
+    series: ["KISS OF LIFE"],
+    stage: ["st4"]
+    }
+  },
+{
+    name: "Belle",
+    img: "Belle.jpg",
+    opts: {
+    series: ["KISS OF LIFE"],
+    stage: ["st4"]
+    }
+  },
+{
+    name: "Haneul",
+    img: "Haneul.jpg",
+    opts: {
+    series: ["KISS OF LIFE"],
     stage: ["st4"]
     }
   },
